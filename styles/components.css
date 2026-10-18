@@ -191,3 +191,60 @@
     font-size: var(--text-sm);
   }
 }
+
+/* ========================================
+   REUSABLE CONTACT BUTTON
+======================================== */
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0.875rem 1.75rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md, 0.5rem);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    transform var(--transition-base, 200ms ease),
+    background var(--transition-base, 200ms ease),
+    border-color var(--transition-base, 200ms ease),
+    box-shadow var(--transition-base, 200ms ease);
+}
+
+.contact-button:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+  color: var(--on-accent);
+  box-shadow: var(--shadow-glow, 0 0 1.5rem rgba(61, 220, 90, 0.15));
+}
+
+.contact-button:focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 4px;
+}
+
+@media (max-width: 680px) {
+  .contact-button {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contact-button {
+    transition: none;
+  }
+
+  .contact-button:hover {
+    transform: none;
+  }
+}
