@@ -195,8 +195,103 @@
 /* ========================================
    REUSABLE CONTACT BUTTON
 ======================================== */
-
 .contact-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-width: 44px;
+  min-height: 54px;
+  max-width: 100%;
+  margin-top: 30px;
+  padding: 14px 19px;
+  overflow: hidden;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font);
+  font-size: var(--text-sm);
+  font-weight: var(--font-bold);
+  line-height: var(--leading-normal);
+  text-align: center;
+  text-decoration: none;
+  white-space: normal;
+  overflow-wrap: break-word;
+  cursor: pointer;
+  touch-action: manipulation;
+  isolation: isolate;
+  transition:
+    transform var(--transition-base),
+    background var(--transition-base),
+    border-color var(--transition-base),
+    box-shadow var(--transition-base);
+}
+.contact-button::before {
+  position: absolute;
+  z-index: -1;
+  top: -40%;
+  left: -70%;
+  width: 45%;
+  height: 180%;
+  content: "";
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.28),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: left 550ms ease;
+}
+.contact-button:hover {
+  transform: translateY(-3px);
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+  color: var(--on-accent);
+  box-shadow: var(--shadow-glow);
+}
+.contact-button:hover::before {
+  left: 130%;
+}
+.contact-button:active {
+  transform: translateY(-1px) scale(0.99);
+}
+.contact-button:focus-visible {
+  outline: 3px solid var(--accent-hover);
+  outline-offset: 4px;
+}
+.contact-button__icon {
+  width: 21px;
+  height: 21px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--transition-base);
+}
+.contact-button__arrow {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform var(--transition-base);
+}
+.contact-button:hover .contact-button__icon {
+  transform: rotate(-8deg) scale(1.08);
+}
+.contact-button:hover .contact-button__arrow {
+  transform: translateX(4px);
+}
+
+/* .contact-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -231,7 +326,7 @@
   background: var(--accent-hover);
   color: var(--on-accent);
   box-shadow: var(--shadow-glow, 0 0 1.5rem rgba(61, 220, 90, 0.15));
-}
+} */
 
 .contact-button:focus-visible {
   outline: 3px solid var(--accent-hover);
