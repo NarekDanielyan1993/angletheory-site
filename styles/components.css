@@ -341,6 +341,13 @@
   }
 }
 
+@media (max-width: 24.375rem) {
+  .contact-button__arrow,
+  .contact-button__icon {
+    display: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .contact-button {
     transition: none;
