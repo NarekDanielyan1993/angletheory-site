@@ -1,0 +1,83 @@
+{
+  "project_id": "site-abc",
+  "project_name": "Сайт АВС",
+  "codeword": "Сайт АВС",
+  "repository": "angle-theory-studio/angletheory-site",
+  "folder": "site-abc",
+  "owner_confirmed_at": "2026-10-20T09:46:51+02:00",
+  "submissions": [
+    {
+      "task_id": "08_ai-opportunity-audit",
+      "candidate": "Александр",
+      "repository": "https://github.com/m2005977-dotcom/ai-opportunity-audit-design",
+      "commit": "16a5a5c2bfccb857865d8849ad465a11f5257388",
+      "files": [
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/README.md",
+          "bytes": 1664,
+          "sha256": "565ae7109d99fa3db24d16d5b6ce1409d31a0523ef4ddbd9c4719bbb6ef39d09",
+          "git_blob_sha": "5e01ef4a1fc9664c6cbf2c1a80c38b01464399e6"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/assets/background-photo-desktop.png",
+          "bytes": 4501600,
+          "sha256": "7687c88f6f96f564c340ea64153faa29aaf71488f59528dcca3e4876db0baa6f",
+          "git_blob_sha": "661ac33209dec39bd67fad33d60ec82c99946562"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/assets/background-photo-mobile.png",
+          "bytes": 692414,
+          "sha256": "9022bef9b087b57d19db4f024848453902ecad8f4c11bbe2710d72aa5f3b7433",
+          "git_blob_sha": "0c87e745ac11448b8489ed3f5f86dab82058a04a"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/assets/logo.png",
+          "bytes": 3106,
+          "sha256": "b63baf8836eddada5583cac14ab41abbdb761b2f125c17a13599c3906292b729",
+          "git_blob_sha": "45e49be29c6f0b817cacb225f68230830cc1633b"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/fonts-and-licenses/fonts-and-licenses.md",
+          "bytes": 702,
+          "sha256": "8e105a2b9421abffadd8903a43ec269d9d68c53028bd296f52d6be6faa204205",
+          "git_blob_sha": "a92c14a18cd5fd61781c55cbd7b6ad76bda6dd2c"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/previews/Desktop-1440.png",
+          "bytes": 1604676,
+          "sha256": "9bb0cd9a4e5948036e7c2ddffe113454527ee5acbd35d2668285f8f16ea5e77e",
+          "git_blob_sha": "720c1792891a0e183de35107c7b1251b1e3ea045"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/previews/Mobile-390.png",
+          "bytes": 578956,
+          "sha256": "15626e971bf18b84a3e549a1268a7cee4ee6966ba3b715dbb7d79ac57d805153",
+          "git_blob_sha": "5a8828fa89830afaf6cb906ca65cd7d24ea3fc3f"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/responsive-and-actions/responsive-and-actions.md",
+          "bytes": 3661,
+          "sha256": "dd0a4f582736a3faea4a8c746c55cc8ca75642b56955d17bc58630a6db1912b4",
+          "git_blob_sha": "bc72912d4446a4e5f8c8c854f895892663b7e14a"
+        },
+        {
+          "path": "submissions/08_Aleksandr/16a5a5c2bfccb857865d8849ad465a11f5257388/sources/AI Opportunity Audit.fig",
+          "bytes": 10558762,
+          "sha256": "f31ca3a3addd515050e0a12252eae35825a441d8e6d91f7d9630488e148a9129",
+          "git_blob_sha": "365f632e0af0fdfa1f0cc135389ed88c2ae9a39d"
+        }
+      ],
+      "review_status": "NOT_REVIEWED",
+      "copied_to_github": "INCLUDED_IN_THIS_COMMIT"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "01_home",
+      "candidate": "Albert",
+      "archive": "tasks/01_Albert.zip"
+    }
+  ],
+  "next_step": "Сопоставить сдачу 08 с исходным ТЗ и выполнить приёмку отдельным ходом. Добавлять остальные материалы по мере восстановления и получения.",
+  "scope": "Архив материалов проекта; создание папки и сохранение сдачи не означает принятие дизайна или внедрение."
+}
