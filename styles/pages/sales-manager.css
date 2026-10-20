@@ -51,6 +51,22 @@
   max-width: 760px;
 }
 
+.sales-manager-hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--line, #2b4032);
+  border-radius: 999px;
+  color: var(--accent, #3ddc5a);
+  font-family: var(--font);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .sales-manager-page .product-hero h1 {
   margin: 0;
   color: var(--text);
@@ -60,6 +76,7 @@
   line-height: 1.12;
   letter-spacing: -0.035em;
   overflow-wrap: break-word;
+  margin-bottom: 1rem;
 }
 
 .sales-manager-page .product-hero__visual {
@@ -116,7 +133,8 @@
 
 .sales-manager-page .benefit-card {
   min-width: 0;
-  padding: clamp(1.5rem, 2.5vw, 2rem);
+  height: auto;
+  padding: clamp(1.25rem, 2vw, 1.5rem);
   border: 1px solid var(--line);
   border-radius: var(--radius-lg, 1rem);
   background: var(--card-bg);
@@ -134,12 +152,13 @@
 }
 
 .sales-manager-page .benefit-card h2 {
-  margin: 0 0 0.875rem;
+  margin: 0 0 0.75rem;
   color: var(--text);
   font-family: var(--font);
   font-size: clamp(1.125rem, 1.5vw, 1.375rem);
   font-weight: 700;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .sales-manager-page .benefit-card p {
@@ -149,6 +168,7 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 /* ========================================
@@ -193,7 +213,7 @@
 
 @media (max-width: 680px) {
   .sales-manager-page .section {
-    padding: 3.5rem 0;
+    padding: 1.5rem 0;
   }
 
   .sales-manager-page .container {
@@ -204,28 +224,64 @@
     min-height: 68px;
   }
 
+  /* HERO: remove unnecessary vertical height */
+  .sales-manager-page .product-hero {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+
   .sales-manager-page .product-hero__grid {
-    grid-template-columns: 1fr;
-    min-height: auto;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    min-height: 0;
+  }
+
+  .sales-manager-page .product-hero__content {
+    width: 100%;
+    max-width: 760px;
+    min-width: 0;
   }
 
   .sales-manager-page .product-hero h1 {
+    max-width: 100%;
     font-size: clamp(1.5rem, 7vw, 3rem);
+    line-height: 1.15;
+    overflow-wrap: anywhere;
   }
 
   .sales-manager-page .product-hero__visual {
     display: none;
   }
 
+  /* BENEFITS: control the gap after the hero */
+  .sales-manager-page .product-benefits {
+    padding-top: 1.5rem;
+  }
+
   .sales-manager-page .benefit-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
   }
 
   .sales-manager-page .benefit-card {
-    padding: 1.5rem;
+    padding: 1.25rem;
   }
 
+  .sales-manager-page .benefit-card h2,
+  .sales-manager-page .benefit-card p {
+    overflow-wrap: anywhere;
+  }
+
+  /* Keep results section spacing independent */
+  .sales-manager-page .product-results {
+    padding-bottom: 1.5rem;
+  }
+
+  .sales-manager-page .product-cta {
+    padding-top: 2rem;
+  }
+
+  /* Contact section */
   .sales-manager-page .product-cta__inner {
     padding: 0;
     border: none;
@@ -235,6 +291,7 @@
 
   .sales-manager-page .contact-button {
     width: 100%;
+    max-width: 100%;
   }
 }
 

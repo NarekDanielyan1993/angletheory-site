@@ -1,15 +1,21 @@
 :root {
   --bg: #050a07;
   --bg-2: #08140d;
+
+  /* Text */
   --text: #eef4ef;
-  --muted: #b9c7be;
-  --faint: #8c9d92;
+  --muted: #c4d0c7;
+  --faint: #a7b5aa;
+
+  /* Calm green accent */
   --accent: #3ddc5a;
   --accent-hover: #6cf08a;
   --on-accent: #04110a;
+
+  /* Borders */
+  --line: #2b4032;
+  --line-strong: #3b5743;
   --accent-soft: rgba(61, 220, 90, 0.08);
-  --line: rgba(61, 220, 90, 0.16);
-  --line-strong: rgba(61, 220, 90, 0.38);
   --card-bg: linear-gradient(
     160deg,
     rgba(61, 220, 90, 0.08),
