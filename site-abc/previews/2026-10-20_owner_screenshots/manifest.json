@@ -1,0 +1,52 @@
+{
+  "project_id": "site-abc",
+  "received_at": "2026-10-20T14:46:00+02:00",
+  "source": "Owner attachments in ChatGPT",
+  "scope": "Archive six original screenshot files, unchanged. No design acceptance or implementation.",
+  "files": [
+    {
+      "name": "47576.jpg",
+      "bytes": 129661,
+      "sha256": "380dfd27ce9c3b8fe3e21c42393def6da115185675601f6e8c74b829849f5dcc",
+      "blob": "64df5679e987030854e3386018a4281ac6f2c3d6",
+      "title": "AI Competitor Intelligence (Telegram screenshot)"
+    },
+    {
+      "name": "47574.jpg",
+      "bytes": 93409,
+      "sha256": "715fba66a30d3de9ab25e4cf9cac9a9d2951f521dc20ec9a660330163ae65520",
+      "blob": "8219b60ae0d0e056ec4bd545b2bea3f36c9b5509",
+      "title": "SEO Revenue Recovery"
+    },
+    {
+      "name": "47572.jpg",
+      "bytes": 90040,
+      "sha256": "7bf745d0a4b48a30c2f9c595d2f87be6bd165ff9801035cbad40ffce861d2072",
+      "blob": "f6e92aa8cd691ec6740ef536fdfa2f69b05a8e6e",
+      "title": "Premium Account Opportunity"
+    },
+    {
+      "name": "47570.jpg",
+      "bytes": 93312,
+      "sha256": "ecc1f38d8f14d413dee88b57ff1d81b6083c92a7757a4a06d43a075293dc9507",
+      "blob": "c96fc8aa7578192b3a09529e89d83c443147481d",
+      "title": "AI Search Visibility Audit"
+    },
+    {
+      "name": "47566.jpg",
+      "bytes": 94027,
+      "sha256": "7297d562b905886b7e50ee573e0a86c946d4a046893476ce0199887836538ac0",
+      "blob": "bbeb7012bd330e3dbc8d3bdcbfc03f4e884d1151",
+      "title": "AI Competitor Intelligence"
+    },
+    {
+      "name": "47568.jpg",
+      "bytes": 117793,
+      "sha256": "bdf62e69c40acf356262ae8aa1808f134aa00e10002234fcc68880a0393987b1",
+      "blob": "801042998d30db2f9de28a20c661b7865051988a",
+      "title": "AI Opportunity Audit"
+    }
+  ],
+  "review_status": "NOT_REQUESTED",
+  "notes": "Five distinct mockup pages; AI Competitor Intelligence appears in two screenshots. Authorship and task assignments not established."
+}
