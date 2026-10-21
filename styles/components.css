@@ -228,6 +228,7 @@
     border-color var(--transition-base),
     box-shadow var(--transition-base);
 }
+
 .contact-button::before {
   position: absolute;
   z-index: -1;
@@ -245,6 +246,7 @@
   transform: skewX(-20deg);
   transition: left 550ms ease;
 }
+
 .contact-button:hover {
   transform: translateY(-3px);
   border-color: var(--accent-hover);
@@ -252,16 +254,20 @@
   color: var(--on-accent);
   box-shadow: var(--shadow-glow);
 }
+
 .contact-button:hover::before {
   left: 130%;
 }
+
 .contact-button:active {
   transform: translateY(-1px) scale(0.99);
 }
+
 .contact-button:focus-visible {
   outline: 3px solid var(--accent-hover);
   outline-offset: 4px;
 }
+
 .contact-button__icon {
   width: 21px;
   height: 21px;
@@ -273,6 +279,7 @@
   stroke-linejoin: round;
   transition: transform var(--transition-base);
 }
+
 .contact-button__arrow {
   width: 18px;
   height: 18px;
@@ -284,56 +291,21 @@
   stroke-linejoin: round;
   transition: transform var(--transition-base);
 }
+
 .contact-button:hover .contact-button__icon {
   transform: rotate(-8deg) scale(1.08);
 }
+
 .contact-button:hover .contact-button__arrow {
   transform: translateX(4px);
 }
-
-/* .contact-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 44px;
-  min-height: 52px;
-  max-width: 100%;
-  padding: 0.875rem 1.75rem;
-  border: 1px solid var(--accent);
-  border-radius: var(--radius-md, 0.5rem);
-  background: var(--accent);
-  color: var(--on-accent);
-  font-family: var(--font);
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 1.5;
-  text-align: center;
-  text-decoration: none;
-  white-space: normal;
-  overflow-wrap: break-word;
-  cursor: pointer;
-  touch-action: manipulation;
-  transition:
-    transform var(--transition-base, 200ms ease),
-    background var(--transition-base, 200ms ease),
-    border-color var(--transition-base, 200ms ease),
-    box-shadow var(--transition-base, 200ms ease);
-}
-
-.contact-button:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent-hover);
-  background: var(--accent-hover);
-  color: var(--on-accent);
-  box-shadow: var(--shadow-glow, 0 0 1.5rem rgba(61, 220, 90, 0.15));
-} */
 
 .contact-button:focus-visible {
   outline: 3px solid var(--accent-hover);
   outline-offset: 4px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 42.5rem) {
   .contact-button {
     width: 100%;
     min-height: 52px;

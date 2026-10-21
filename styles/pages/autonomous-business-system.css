@@ -1,4 +1,7 @@
-/* Autonomous Business System page — uses global design tokens only */
+/* =========================================
+   AUTONOMOUS BUSINESS SYSTEM PAGE
+   ========================================= */
+
 .autonomous-page {
   position: relative;
   isolation: isolate;
